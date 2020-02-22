@@ -1,0 +1,33 @@
+{
+  "name": "first-website-express",
+  "version": "1.0.0",
+  "description": "Fisrt website using node and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seObando19/first-node-express-app.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "express",
+    "node"
+  ],
+  "author": "seObando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seObando19/first-node-express-app/issues"
+  },
+  "homepage": "https://github.com/seObando19/first-node-express-app#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
